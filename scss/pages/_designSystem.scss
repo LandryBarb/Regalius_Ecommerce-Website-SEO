@@ -1,0 +1,45 @@
+
+
+@use '../abstracts' as *;
+@use '../base' as *;
+@use '../helpers' as *;
+
+
+.color_wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    min-height: 100vh;
+
+    .box{
+        border: solid 1px red;
+        
+    }
+    .light{
+        background-color: hsl(var( --clr-base-light-100));
+    }
+    .night{
+        background-color: hsl(var( --clr-base-night-700));
+
+    }
+    .earth
+    {
+        background-color: hsl(var( --clr-earth-light-500));
+
+    }
+    .water{
+        background-color: hsl(var( --clr-water-light-500));
+
+    }
+    .fire{
+        background-color: hsl(var( --clr-fire-light-300));
+
+    }
+    .sun{
+        background-color: hsl(var( --clr-sun-light-100));
+
+    }
+    .wood{
+        background-color: hsl(var( --clr-wood-night-700));
+
+    }
+}

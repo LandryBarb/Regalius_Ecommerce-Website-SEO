@@ -1,0 +1,40 @@
+@use '../abstracts' as *;
+
+
+
+
+
+$ff-body:'Poppins', sans-serif;
+$ff-heading:'Questrial', sans-serif;
+$ff-sub-heading:'Red Rose',cursive;
+
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $ff-heading;
+    text-transform: uppercase;
+  
+}
+
+h1 {
+    
+    font-size: var(--fs-top-level-heading);
+}
+
+h2 {
+    font-size: var(--fs-mid-level-heading);
+}
+
+h3 {
+    font-size: var(--fs-sub-level-heading);
+}
+
+p:not([class]) {
+   
+    font-family: var(--ff-body);
+    font-size: var(--fs-body);
+}
+
+
+
+

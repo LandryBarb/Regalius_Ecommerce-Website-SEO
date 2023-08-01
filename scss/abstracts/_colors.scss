@@ -1,0 +1,27 @@
+﻿$special:hsla(358, 59%, 39%, 1);
+$accent: hsla(213, 5%, 39%, 1);
+$primary: hsla(216, 24%, 96%, 1);
+$secondary: hsla(0, 5%, 15%, 1);
+
+$color-map:(
+
+background:
+(
+    400:$primary
+),
+special:
+(
+    400:$special
+),
+body:
+(
+    400: $secondary
+),
+accent:(
+    400:$accent
+)
+
+   
+  );
+
+
